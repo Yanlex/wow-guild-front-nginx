@@ -1,0 +1,16 @@
+.primary-footer {
+	position: relative;
+	border-bottom: 0px;
+	background-image: url('../../../assets/img/Pane-dirtLight.18def74ed60ab9f1f4139f87349d2f79.jpg');
+	background-position: 50% 50%;
+}
+
+.footer__content {
+	font-weight: 400;
+	color: #ebdec2;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	align-items: center;
+	flex-wrap: wrap;
+}

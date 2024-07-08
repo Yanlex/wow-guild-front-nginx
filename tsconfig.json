@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"outDir": "./public_html",
+		"noImplicitAny": true,
+		"module": "ES6",
+		"target": "es5",
+		"jsx": "react",
+		"allowJs": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"baseUrl": "src",
+	},
+	"include": [
+		"src",
+		"declarations.d.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

@@ -1,0 +1,66 @@
+.page__header_content-wrapper {
+	height: 200px;
+	max-width: calc(100% - 4px);
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #000;
+}
+
+.pag-About-title {
+	padding-top: 100px;
+	font-size: var(--header-h1-size);
+	color: #e9ecef;
+	font-weight: 700;
+	text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+}
+
+.page__content_1280 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 1280px;
+	height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.page-About a {
+	color: deepskyblue;
+}
+
+pre {
+	display: block;
+	white-space: break-spaces;
+	margin: 1em 0;
+}
+
+/* хедер */
+.Pane-bg {
+	position: absolute;
+	height: 200px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000000;
+	background-image: url('../../../assets/img/Pane-leather-gray-map.4f5e5cedac63202812029039fc0832f2.jpg');
+	z-index: 1;
+}
+
+.guides-content {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.guides-content > div {
+	flex: 1;
+}

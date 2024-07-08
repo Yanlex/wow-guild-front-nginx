@@ -1,0 +1,40 @@
+.header__guild-contacts {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.header__guild-contacts>li {
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0.35rem;
+  cursor: pointer;
+  font-family: 'Poppins', 'Montserrat', 'Roboto', 'Open Sans', sans-serif;
+  position: relative;
+  border: 1px solid transparent;
+}
+
+.header__guild-contacts>li:hover {
+  background-color: #fff;
+  opacity: 0.8;
+  box-sizing: border-box;
+  border: 1px salmon solid;
+
+}
+
+.header__guild-contacts>li>a {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem 0.5rem 2.3rem;
+}
+
+.social__logo {
+  position: absolute;
+  left: 8px;
+  top: 25%;
+}
+
+.social__logo img {
+  height: 20px;
+  margin-right: 40px;
+}

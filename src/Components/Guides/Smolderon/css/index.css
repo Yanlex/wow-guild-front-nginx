@@ -1,0 +1,9 @@
+.section1 {
+	flex-basis: 49%;
+}
+.section2 {
+}
+.section3 img {
+	max-width: 100%;
+	height: auto;
+}
