@@ -40,74 +40,53 @@ export default function OurProgress({ PathDisplay }: PageProps) {
 	return (
 		<article className={`main__header-progress ${PathDisplay}`}>
 			<h2>РЕЙДОВЫЙ ПРОГРЕСС ГИЛЬДИИ</h2>
-			<div className="progressCard">
-				<h3>Амирдрассил, Надежда Сна</h3>
+						<div className="progressCard">
+				<h3>Неруб'арский дворец</h3>
 				<ul>
 					<li>
 						Нормал{' '}
-						{guildProgress.raid_progression['amirdrassil-the-dreams-hope'].normal_bosses_killed}
+						{guildProgress.raid_progression['nerubar-palace'].normal_bosses_killed}
 						{' / '}
-						{guildProgress.raid_progression['amirdrassil-the-dreams-hope'].total_bosses}
+						{guildProgress.raid_progression['nerubar-palace'].total_bosses}
 					</li>
 					<li>
 						Героик{' '}
-						{guildProgress.raid_progression['amirdrassil-the-dreams-hope'].heroic_bosses_killed}
+						{guildProgress.raid_progression['nerubar-palace'].heroic_bosses_killed}
 						{' / '}
-						{guildProgress.raid_progression['amirdrassil-the-dreams-hope'].total_bosses}
+						{guildProgress.raid_progression['nerubar-palace'].total_bosses}
 					</li>
 					<li>
 						Мифик{' '}
-						{guildProgress.raid_progression['amirdrassil-the-dreams-hope'].mythic_bosses_killed}
+						{guildProgress.raid_progression['nerubar-palace'].mythic_bosses_killed}
 						{' / '}
-						{guildProgress.raid_progression['amirdrassil-the-dreams-hope'].total_bosses}
+						{guildProgress.raid_progression['nerubar-palace'].total_bosses}
 					</li>
 				</ul>
-				<img src={`/assets/img/6K6Z89WII3L01693945700775.png`} alt="" />
+				<img src={`./assets/img/Nerub-ar_Palace_loading_screen.jpg`} alt="" />
 			</div>
 			<div className="progressCard">
-				<h3>Аберрий, Затененное Горнило</h3>
+				<h3>Глубины Черной горы</h3>
 				<ul>
 					<li>
 						Нормал{' '}
-						{guildProgress.raid_progression['aberrus-the-shadowed-crucible'].normal_bosses_killed}
+						{guildProgress.raid_progression['blackrock-depths'].normal_bosses_killed}
 						{' / '}
-						{guildProgress.raid_progression['aberrus-the-shadowed-crucible'].total_bosses}
+						{guildProgress.raid_progression['blackrock-depths'].total_bosses}
 					</li>
 					<li>
 						Героик{' '}
-						{guildProgress.raid_progression['aberrus-the-shadowed-crucible'].heroic_bosses_killed}
+						{guildProgress.raid_progression['blackrock-depths'].heroic_bosses_killed}
 						{' / '}
-						{guildProgress.raid_progression['aberrus-the-shadowed-crucible'].total_bosses}
+						{guildProgress.raid_progression['blackrock-depths'].total_bosses}
 					</li>
 					<li>
 						Мифик{' '}
-						{guildProgress.raid_progression['aberrus-the-shadowed-crucible'].mythic_bosses_killed}
+						{guildProgress.raid_progression['blackrock-depths'].mythic_bosses_killed}
 						{' / '}
-						{guildProgress.raid_progression['aberrus-the-shadowed-crucible'].total_bosses}
+						{guildProgress.raid_progression['blackrock-depths'].total_bosses}
 					</li>
 				</ul>
-				<img src={`/assets/img/FpaAUhx.jpg`} alt="" />
-			</div>
-			<div className="progressCard">
-				<h3>Хранилище Воплощений</h3>
-				<ul>
-					<li>
-						Нормал {guildProgress.raid_progression['vault-of-the-incarnates'].normal_bosses_killed}
-						{' / '}
-						{guildProgress.raid_progression['vault-of-the-incarnates'].total_bosses}
-					</li>
-					<li>
-						Героик {guildProgress.raid_progression['vault-of-the-incarnates'].heroic_bosses_killed}
-						{' / '}
-						{guildProgress.raid_progression['vault-of-the-incarnates'].total_bosses}
-					</li>
-					<li>
-						Мифик {guildProgress.raid_progression['vault-of-the-incarnates'].mythic_bosses_killed}
-						{' / '}
-						{guildProgress.raid_progression['vault-of-the-incarnates'].total_bosses}
-					</li>
-				</ul>
-				<img src={`/assets/img/Raid-Finder-Wing-2-Vault-of-the-Incarnates.jpg`} alt="" />
+				<img src={`./assets/img/nwo6h3y4jfcb1.jpg`} alt="" />
 			</div>
 		</article>
 	);

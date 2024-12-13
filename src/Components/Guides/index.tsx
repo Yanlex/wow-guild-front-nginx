@@ -166,23 +166,8 @@ export default function Guides() {
 									</a>
 								</li>
 								<li>
-									<a href="https://wago.io/dfdungeons" target="_blank" rel="noreferrer">
-										Викаура на все данжи
-									</a>
-								</li>
-								<li>
-									<a href="https://wago.io/iYFPlj7p7" target="_blank" rel="noreferrer">
-										Скрывает чернила в Троне приливов
-									</a>
-								</li>
-								<li>
 									<a href=" https://wago.io/LyVvlKxvs" target="_blank">
 										Spell CDs on Nameplate
-									</a>
-								</li>
-								<li>
-									<a href="https://wago.io/TargetedSpells" target="_blank" rel="noreferrer">
-										Targeted Spells
 									</a>
 								</li>
 							</ul>
@@ -190,9 +175,31 @@ export default function Guides() {
 						</section>
 						<section>
 							<h3>РЕЙДЫ</h3>
-							<Link to="/amirdrassil/smolderon">
+							{/* <Link to="/amirdrassil/smolderon">
 								<h2>{`>> ИНФА ПО ПЕПЛОРОНУ <<`}</h2>
-							</Link>
+							</Link> */}
+							<li>
+								<a href='https://wago.io/h9W7GhwQU'
+									target='_blank'
+									rel="noreferrer">
+										Вика - Гнев анархии
+									</a>
+							</li>
+							<li>
+								<a href='https://wago.io/FG3MEpb6s'
+									target='_blank'
+									rel="noreferrer">
+										Interrupt Anchoring (MRT ONLY) TWW Mod	
+									</a>
+							</li>
+														<li>
+								<a href='https://wago.io/LiquidWeakAuras'
+									target='_blank'
+									rel="noreferrer">
+										Якорь Liquid
+									</a>
+							</li>
+							<h2></h2>
 
 							<ul>
 								<h4>Аддоны</h4>
@@ -269,7 +276,7 @@ export default function Guides() {
 									</a>
 								</li>
 								<li>
-									<a href="https://wago.io/dfraid3" target="_blank" rel="noreferrer">
+									<a href="https://wago.io/V1wblU7RH" target="_blank" rel="noreferrer">
 										Общая WA на весь рейд
 									</a>
 								</li>

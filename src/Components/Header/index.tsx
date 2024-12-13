@@ -37,7 +37,7 @@ export default function Header(props: { title: JSX.Element | string; p: JSX.Elem
 		<>
 			<header className={`header header_second ${backgoundSize}`}>
 				<video autoPlay loop muted className={`${background}`}>
-					<source src={`/assets/video/M1QEYAXEAWPX1699388765299.mp4`} type="video/mp4" />
+					<source src={`./assets/video/M1QEYAXEAWPX1699388765299.mp4`} type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>
 				<div className="container">

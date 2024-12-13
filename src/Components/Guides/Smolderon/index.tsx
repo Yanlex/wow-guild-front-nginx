@@ -53,7 +53,7 @@ export default function Smolderon() {
 					<section className="section3">
 						<h2>ВИЗУАЛ</h2>
 						<h3>Как стоять</h3>
-						<img src="/assets/img/position-smolderon.png"></img>
+						<img src="./assets/img/position-smolderon.png"></img>
 						<h3>Контент с ютуба</h3>
 						<iframe
 							width="560"

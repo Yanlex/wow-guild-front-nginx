@@ -1,5 +1,5 @@
 /* eslint-disable import/no-unresolved */
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Page from './Components/Page';
 import Header from './Components/Header';
@@ -10,15 +10,23 @@ import Guides from './Components/Guides';
 import Smolderon from 'Components/Guides/Smolderon';
 
 export default function App() {
+	const [basename, setBasename] = useState('');
+	useEffect(() => {
+    const currentUrl = window.location.pathname;
+    const basename = currentUrl.substring(0, currentUrl.indexOf('/', 1));
+    setBasename(basename);
+	console.log(basename)
+  }, []);
+
 	const homePageTitle = (
 		<p>
 			Приветствуем вас в обновленной гильдии ⭐ Ключик в дурку ⭐ - устремленной к профессионализму
 			и полному погружению в мир World of Warcraft. Мы эволюционировали из казуальной группы в семью
-			настоящих семи-хардкорных игроков.
+			настоящих семи-хардкорных игроков !
 		</p>
 	);
 	return (
-		<BrowserRouter basename="/">
+		<BrowserRouter basename={basename}>
 			<Routes>
 				<Route
 					path="/"
