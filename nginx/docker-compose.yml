@@ -8,9 +8,9 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./certs:/etc/nginx/certs/:ro
-      - ../public_html:/var/www/dist/kvd/:ro
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./certs:/etc/nginx/certs/
+      - ../public_html:/var/www/dist/
     networks:
       - wowguild
 
