@@ -10,13 +10,15 @@ import Guides from './Components/Guides';
 import Smolderon from 'Components/Guides/Smolderon';
 
 export default function App() {
-	const [basename, setBasename] = useState('');
-	useEffect(() => {
-    const currentUrl = window.location.pathname;
-    const basename = currentUrl.substring(0, currentUrl.indexOf('/', 1));
-    setBasename(basename);
-	console.log(basename)
-  }, []);
+	const [baseUrl, setBasename] = useState('');
+useEffect(() => {
+  const currentUrl = window.location.pathname;
+  const match = currentUrl.match(/^\/([^/]+)(?:\/|$)/);
+  const basename = match ? match[1] : '';
+  setBasename(basename);
+  console.log(currentUrl)
+  console.log("HE",basename);
+}, []);
 
 	const homePageTitle = (
 		<p>
@@ -26,7 +28,7 @@ export default function App() {
 		</p>
 	);
 	return (
-		<BrowserRouter basename={basename}>
+		<BrowserRouter basename={baseUrl}>
 			<Routes>
 				<Route
 					path="/"
